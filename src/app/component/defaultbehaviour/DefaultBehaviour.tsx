@@ -19,7 +19,7 @@ const DefaultBehaviour = async() => {
    
     
   return (
-    <div className='flex'>
+    <div className='flex w-full'>
     <SideBar/>
     <main className="flex justify-center items-center w-full">
     <div className="main_container flex flex-wrap justify-centerh-48 h-48">
