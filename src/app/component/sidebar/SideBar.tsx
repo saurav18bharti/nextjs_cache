@@ -5,6 +5,9 @@ import React from 'react'
 export const SideBar = () => {
   return (
     <div className="h-screen w-64 bg-gray-800 text-white flex flex-col p-4">
+    <Link href="/">
+      <p className="mb-4 p-2 rounded hover:bg-gray-700 transition duration-200">Home</p>
+    </Link>
     <Link href="/component/fetchoneveryrequest">
       <p className="mb-4 p-2 rounded hover:bg-gray-700 transition duration-200">Every Request</p>
     </Link>
